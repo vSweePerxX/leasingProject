@@ -27,10 +27,10 @@ Diese Datei ist ein Sammeldokument aller Daten.
 
 1. Mit dem Befehl `source environment_name/bin/activate` das Environment aktivieren
     1. Aktive ist es, wenn der Name des Environments am Anfang der kommandozeile steht:`(tutorial-env) MacBook-Pro-2:~ xxxx`
-2. Mit dem Befehl `cd BeispielPfad/leasingNew` in den ordner [leasingNew](https://github.com/vSweePerxX/Scraper/tree/master/anwaltsregisterScraper) navigieren
+2. Mit dem Befehl `cd BeispielPfad/leasingNew` in den ordner [leasingNew](https://github.com/vSweePerxX/leasingProject/tree/master/leasingNew) navigieren
 3. Hier können nun verschiedene scraper gestartet werden
     1. `scrapy crawl leasingCrawler -a model=9 -o results/outputLeasing.json'
         1. Für 'model' kann jede beliebige Nummer eingestzt werden, die eine Marke wiedergibt
     2. `scrapy crawl mobileCrawler -a model=9 -o results/outputMobile.json'
     
-    Der Output wird in den anwaltsregisterScraper Ordner geschrieben
+    Der Output wird in den results Ordner geschrieben
