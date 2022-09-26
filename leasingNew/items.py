@@ -11,6 +11,7 @@ class leasingScraperItem(scrapy.Item):
     Price = scrapy.Field()
     TimeSpan = scrapy.Field()
     Miles = scrapy.Field()
+    Picture = scrapy.Field()
 class BvaiItem(scrapy.Item):
 
     name = scrapy.Field()
