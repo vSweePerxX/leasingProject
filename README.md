@@ -1,5 +1,5 @@
 # Scraper
-https://learn-automation.com/how-to-create-log-files-in-selenium/
+In den oben aufgelisteten Ordnern finden sie alle revanten Prüfungsleistungen.
 ## Installation von Python und Pip
 
 Laden Sie die ausführbare Installationsdatei für Python 3.7 Windows x86-64 von der [Downloads-Seite](https://www.python.org/downloads/) von [Python.org](https://www.python.org/) herunter.
