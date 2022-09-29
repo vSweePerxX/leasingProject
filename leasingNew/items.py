@@ -12,6 +12,7 @@ class leasingScraperItem(scrapy.Item):
     TimeSpan = scrapy.Field()
     Miles = scrapy.Field()
     Picture = scrapy.Field()
+    Link = scrapy.Field()
 
 class SixtItem(scrapy.Item):
     Title = scrapy.Field()

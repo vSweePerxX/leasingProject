@@ -35,8 +35,8 @@ class LeasingScraper(scrapy.Spider):
                 item['Price'] = auto.css(".font-bold::text").get().replace(",00\xa0€","")
                 item['TimeSpan'] = auto.css(".mb-1:nth-child(4) .text-black-100::text").get().replace("\n","")
                 item['Miles'] = auto.css(".mb-1:nth-child(3) .text-black-100::text").get().replace("\n","")
-                item['Picture'] = auto.css(".max-w-full .mobile\:w-full").attrib['src'].replace("/data",
-                                                                                "https://www.leasingmarkt.de/data")
+                item['Picture'] = auto.css(".max-w-full .mobile\:w-full").attrib['src'].replace("/data","https://www.leasingmarkt.de/data")
+                item['Link'] = auto.xpath('//a[@class="relative flex flex-row mobile:flex-col"]/@href').get()
                 yield item
 
       #  for x in range(8):
