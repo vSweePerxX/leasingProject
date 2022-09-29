@@ -12,21 +12,12 @@ class leasingScraperItem(scrapy.Item):
     TimeSpan = scrapy.Field()
     Miles = scrapy.Field()
     Picture = scrapy.Field()
-class BvaiItem(scrapy.Item):
 
-    name = scrapy.Field()
-    adressPart1 = scrapy.Field()
-    adressPart2 = scrapy.Field()
-    partner = scrapy.Field()
-    phone = scrapy.Field()
-    mail = scrapy.Field()
-    website = scrapy.Field()
-    ManagingDirector_BoardMember = scrapy.Field()
+class SixtItem(scrapy.Item):
+    Title = scrapy.Field()
+    Price = scrapy.Field()
+    TimeSpan = scrapy.Field()
+    Miles = scrapy.Field()
+    Picture = scrapy.Field()
 
-class GelbeSeitenItem(scrapy.Item):
 
-    name = scrapy.Field()
-    #spezifikation = scrapy.Field()
-    straße_Hausnummer = scrapy.Field()
-    PLZ = scrapy.Field()
-    Branche = scrapy.Field()
